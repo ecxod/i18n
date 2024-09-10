@@ -1,0 +1,26 @@
+{
+    "name": "ecxod/i18n",
+    "description": "A package for get lost in translation.",
+    "type": "library",
+    "keywords": ["i18n", "translation"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ecxod\\I18n\\": "src/i18n/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chr. Eichert",
+            "email": "c@zp1.net"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^7.4|^8.0|^8.2",
+        "ecxod/funktionen": "^1.0",
+        "ext-json": "*"
+    },
+    "Suggests": {
+        "php": ">=7.2"
+    }
+}
