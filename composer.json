@@ -19,8 +19,5 @@
         "php": "^7.2|^7.4|^8.0|^8.2",
         "ecxod/funktionen": "^1.0",
         "ext-json": "*"
-    },
-    "Suggests": {
-        "php": ">=7.2"
     }
 }
